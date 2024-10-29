@@ -20,14 +20,16 @@ The code in `Texas_Global.ipynb` covers multiple data processing, exploration, a
    - Basic cleaning processes, such as handling missing values and standardizing column names, are employed to prepare data for analysis.
 
 ### 2. Data Normalization to 3NF
+![Entity-Relationship Diagram (ERD)](Images/ER Diagram.png)
 
-   - The `fmp-dump.csv` data is processed to achieve Third Normal Form (3NF), which enhances data integrity and reduces redundancy.
+   - The raw file maker pro data is processed to achieve Third Normal Form (3NF), which enhances data integrity and reduces redundancy.
    - Key steps include:
      - Identifying and separating functional dependencies within the data.
      - Creating new tables (e.g., `Department`, `Faculty`, `Expertise`, `Countries`) to represent each entity individually.
      - Adding link tables, such as `Faculty Expertise Table` and `Faculty Country of Interest Table`, to manage many-to-many relationships without redundancy.
      - Defining primary keys for each table and establishing foreign key relationships, as shown in the ERD.
    - This normalization ensures the data structure is efficient, consistent, and optimized for analysis.
+
 
 ### 3. Data Merging and Relational Mapping
 
