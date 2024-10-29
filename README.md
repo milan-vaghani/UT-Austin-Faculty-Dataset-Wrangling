@@ -21,7 +21,7 @@ The code in `Texas_Global.ipynb` covers multiple data processing, exploration, a
 
 ### 2. Data Normalization to 3NF
 
-![Entity-Relationship Diagram (ERD)](Images/ER Diagram.png)
+![Entity-Relationship Diagram (ERD)](Images/ER%20Diagram.png)
 
    - The raw file maker pro data is processed to achieve Third Normal Form (3NF), which enhances data integrity and reduces redundancy.
    - Key steps include:
@@ -55,7 +55,7 @@ The Tableau dashboard (`Dashboard 1`) offers an interactive interface to explore
    - Displays a bar chart that ranks expertise areas by the number of faculty members.
    - Allows users to see which expertise areas have the highest representation among faculty.
 
-   ![Faculty-Expertise Bar Chart](Images/Expertise Bar Chart.png)
+   ![Faculty-Expertise Bar Chart](Images/Expertise%20Bar%20Chart.png)
 
 ### 2. Global Map of Faculty Interests
 
@@ -68,7 +68,7 @@ These visualizations enable stakeholder to understand faculty expertise and inte
 
 ## Entity-Relationship Diagram (ERD)
 
-![Entity-Relationship Diagram (ERD)](Images/ER Diagram.png)
+![Entity-Relationship Diagram (ERD)](Images/ER%20Diagram.png)
 
 The ERD provides a conceptual view of the faculty database structure, defining relationships between the main entities:
 
@@ -79,7 +79,7 @@ The ERD provides a conceptual view of the faculty database structure, defining r
 5. **Faculty Country of Interest Table**: Links faculty to countries of interest, using `FacultyID` and `CountryID`.
 6. **Countries Table**: Lists countries with `CountryID` and `Country Name`.
 
-![Tableau Entity-Relationship Diagram (ERD)](Images/Tableau ER Diagram.png)
+![Tableau Entity-Relationship Diagram (ERD)](Images/Tableau%20ER%20Diagram.png)
    
 
 The ERD represents a normalized relational database structure that minimizes redundancy and optimizes data retrieval for complex queries.
