@@ -20,6 +20,7 @@ The code in `Texas_Global.ipynb` covers multiple data processing, exploration, a
    - Basic cleaning processes, such as handling missing values and standardizing column names, are employed to prepare data for analysis.
 
 ### 2. Data Normalization to 3NF
+
 ![Entity-Relationship Diagram (ERD)](Images/ER Diagram.png)
 
    - The raw file maker pro data is processed to achieve Third Normal Form (3NF), which enhances data integrity and reduces redundancy.
@@ -66,7 +67,9 @@ These visualizations enable stakeholder to understand faculty expertise and inte
 ---
 
 ## Entity-Relationship Diagram (ERD)
+
 ![Entity-Relationship Diagram (ERD)](Images/ER Diagram.png)
+
 The ERD provides a conceptual view of the faculty database structure, defining relationships between the main entities:
 
 1. **Department Table**: Contains department details, including `DepartmentID`, `Department Name`, and associated `School`.
@@ -75,6 +78,7 @@ The ERD provides a conceptual view of the faculty database structure, defining r
 4. **Expertise Table**: Details various expertise categories with `ExpertiseID` and `Category Name`.
 5. **Faculty Country of Interest Table**: Links faculty to countries of interest, using `FacultyID` and `CountryID`.
 6. **Countries Table**: Lists countries with `CountryID` and `Country Name`.
+
 ![Tableau Entity-Relationship Diagram (ERD)](Images/Tableau ER Diagram.png)
    
 
