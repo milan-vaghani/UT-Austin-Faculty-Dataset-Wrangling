@@ -15,7 +15,7 @@ This project provides a structured database and dashboard to analyze faculty inf
 The code in `Texas_Global.ipynb` covers multiple data processing, exploration, and analysis techniques, including:
 
 ### 1. Data Import and Cleaning
-
+![RAW File](Images/Raw%20File.png)
    - The code begins by importing data from Filemaker Pro faculty data in a CSV file, which contain faculty, department, expertise, and country information.
    - Basic cleaning processes, such as handling missing values and standardizing column names, are employed to prepare data for analysis.
 
