@@ -47,27 +47,26 @@ The code in `Texas_Global.ipynb` covers multiple data processing, exploration, a
 ## Tableau Dashboard
 
 The Tableau dashboard (`Dashboard 1`) offers an interactive interface to explore the faculty data visually. Key components of the dashboard include:
+![Tableau Dashboard](Images/Tableau Dashboard SS.png)
 
 ### 1. Faculty-Expertise Bar Chart
 
    - Displays a bar chart that ranks expertise areas by the number of faculty members.
    - Allows users to see which expertise areas have the highest representation among faculty.
 
-   ![Faculty-Expertise Bar Chart](Images/faculty_expertise_bar_chart.png)
+   ![Faculty-Expertise Bar Chart](Images/Expertise Bar Chart.png)
 
 ### 2. Global Map of Faculty Interests
 
    - A world map visualization shows the distribution of faculty interests across different countries.
    - Countries are shaded to reflect the number of faculty members with interests in each location, providing a quick view of international engagement.
 
-   ![Global Map of Faculty Interests](Images/global_map_faculty_interests.png)
-
-These visualizations enable users to understand faculty expertise and international interests, helping to identify areas of strength and potential for global collaboration.
+These visualizations enable stakeholder to understand faculty expertise and international connection, helping UT Austin to identify areas of strength and potential for global collaboration.
 
 ---
 
 ## Entity-Relationship Diagram (ERD)
-
+![Entity-Relationship Diagram (ERD)](Images/ER Diagram.png)
 The ERD provides a conceptual view of the faculty database structure, defining relationships between the main entities:
 
 1. **Department Table**: Contains department details, including `DepartmentID`, `Department Name`, and associated `School`.
@@ -76,8 +75,8 @@ The ERD provides a conceptual view of the faculty database structure, defining r
 4. **Expertise Table**: Details various expertise categories with `ExpertiseID` and `Category Name`.
 5. **Faculty Country of Interest Table**: Links faculty to countries of interest, using `FacultyID` and `CountryID`.
 6. **Countries Table**: Lists countries with `CountryID` and `Country Name`.
-
-   ![Entity-Relationship Diagram (ERD)](Images/ERD.png)
+![Tableau Entity-Relationship Diagram (ERD)](Images/Tableau ER Diagram.png)
+   
 
 The ERD represents a normalized relational database structure that minimizes redundancy and optimizes data retrieval for complex queries.
 
