@@ -10,7 +10,7 @@ This project provides a structured database and dashboard to analyze faculty inf
 
 ---
 
-## Techniques Used in `Texas_Global.ipynb`
+## Techniques Used in ![Texas_Global.ipynb](UT-Austin-Faculty-Dataset-Wrangling/Texas_Global.ipynb)
 
 The code in `Texas_Global.ipynb` covers multiple data processing, exploration, and analysis techniques, including:
 
